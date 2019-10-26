@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/cinza"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.sigea.wawingisebastiao.jota.com.example.wawingisebastiao.mb.Contacto">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ALTERAR SENHA"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:layout_marginLeft="5dp"/>
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/editsenhaantiga"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="informe a senha antiga"
+                    android:gravity="center"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:drawableLeft="@drawable/ic_lock_open_black_24dp"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/efeitocurvo"
+                    android:inputType="textPassword"/>
+                <EditText
+                    android:id="@+id/editsenhanova"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="informe a nova senha"
+                    android:gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:drawableLeft="@drawable/ic_lock_open_black_24dp"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/efeitocurvo"
+                    android:inputType="textPassword"/>
+                <EditText
+                    android:id="@+id/editsenhanovarepete"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="repita a nova senha"
+                    android:gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:drawableLeft="@drawable/ic_lock_open_black_24dp"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/efeitocurvo"
+                    android:inputType="textPassword"/>
+
+                <Button
+                    android:id="@+id/btnalterarsenha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="ALTERAR"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/botao_redonda"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

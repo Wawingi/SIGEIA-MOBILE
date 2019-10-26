@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sigea.wawingisebastiao.jota">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logoold"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logoold"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="uan.sigeamobile.Dashboard"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="uan.sigeamobile.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name="uan.sigeamobile.PerdidoAchado"></activity>
+        <activity android:name="uan.sigeamobile.Contacto"></activity>
+        <activity android:name="uan.sigeamobile.Conhecauan"></activity>
+        <activity android:name="uan.sigeamobile.Cursos"></activity>
+        <activity android:name="uan.sigeamobile.Documentos"></activity>
+        <activity android:name="uan.sigeamobile.Calendarizacao"></activity>
+        <activity android:name="uan.sigeamobile.Pesquisa"></activity>
+        <activity android:name="uan.sigeamobile.TurmaCandidato"></activity>
+        <activity android:name="uan.sigeamobile.Menucandidato"></activity>
+        <activity android:name="uan.sigeamobile.NotaCandidato"></activity>
+        <activity android:name="uan.sigeamobile.Senhacandidato"></activity>
+        <activity
+            android:name="uan.sigeamobile.MainActivity2"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+    </application>
+</manifest>

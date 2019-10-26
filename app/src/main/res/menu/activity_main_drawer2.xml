@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Meu Perfil">
+        <menu>
+            <item
+                android:id="@+id/verturma"
+                android:icon="@drawable/ic_description_black_24dp"
+                android:title="Ver Turma" />
+            <item
+                android:id="@+id/vernota"
+                android:icon="@drawable/ic_mode_edit_black_24dp"
+                android:title="Ver Nota" />
+            <item
+                android:id="@+id/trocarsenha"
+                android:icon="@drawable/ic_lock_open_black_24dp"
+                android:title="Alterar Senha" />
+        </menu>
+    </item>
+    <item android:title="Links Úteis">
+        <menu>
+            <item
+                android:id="@+id/menuuan"
+                android:icon="@drawable/ic_language_black_24dp"
+                android:title="@string/linkuan" />
+            <item
+                android:id="@+id/menutopicos"
+                android:icon="@drawable/ic_language_black_24dp"
+                android:title="@string/linktopico" />
+        </menu>
+    </item>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/partilhar"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="Partilhar" />
+            <item
+                android:id="@+id/sobre"
+                android:icon="@drawable/ic_info_outline_black_24dp"
+                android:title="Sobre" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>

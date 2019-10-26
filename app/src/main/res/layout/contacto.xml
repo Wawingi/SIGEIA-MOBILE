@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/cinza"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="uan.sigeamobile.Contacto">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="65dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <!-- Endereço -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="ENDEREÇO"
+                        android:textSize="18sp"
+                        android:textColor="@color/fundonav"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="Distrito Urbano da Cidade Universitária"
+                        android:textColor="@android:color/secondary_text_light"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="(1) Estrada da Camama"
+                        android:textColor="@android:color/secondary_text_light"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="(2) Estádio 11 de Novembro"
+                        android:textColor="@android:color/secondary_text_light"
+                        android:textSize="16sp" />
+                    <!-- Fim endereço -->
+                    <!-- COntactos -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="CONTACTOS"
+                        android:textSize="16sp"
+                        android:textColor="@color/fundonav"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_marginTop="24dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="(+244) 922 97 57 10"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/secondary_text_light"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="comunicacao@uan.ao"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/secondary_text_light"
+                        android:gravity="center"/>
+                    <TextView
+                        android:id="@+id/txtsite"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/linksite"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/secondary_text_light"
+                        android:gravity="center"
+                        android:layout_marginBottom="10dp"/>
+                    <!-- Fim Contactos -->
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            </ScrollView>
+        </LinearLayout>
+</LinearLayout>

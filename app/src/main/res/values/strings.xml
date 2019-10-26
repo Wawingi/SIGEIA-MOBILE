@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SIGEA-UAN</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Sair</string>
+    <string name="linksite">
+        <a href="http://www.uan.ao">www.uan.ao</a>
+    </string>
+
+    <string name="linkuan">
+        <a href="http://www.uan.ao">Conheça a UAN</a>
+    </string>
+
+    <string name="linktopico">
+        <a href="http://www.uan.ao">Baixar Tópicos</a>
+    </string>
+</resources>
